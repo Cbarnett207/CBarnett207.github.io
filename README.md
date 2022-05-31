@@ -1,2 +1,2 @@
-# CBarnett207.github.io
+# codybarnett.github.io
 Primary repository for website construction
