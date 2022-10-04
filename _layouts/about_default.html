@@ -4,7 +4,7 @@
 			<title>{{ page.title }}</title>
 			<img width="100%" src="/images/templefjorden_3_clip.jpg">
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/about_page.css">
 		</head>
 		<body>
 			<nav>
@@ -21,27 +21,8 @@
 			</nav>
 			<div class="container">
 				
-				.container{
-				width:100%;
-				display:flex;
-				}
-        
-				.container__texts{
-	     			 width:80%;
-        			}
-
-        			.container__img{
-	   			width:20%;
-	     			position:relative;
-        			}
-
-        			.container__img img{
-	 	     		height:100%;
-	      			width:auto;
-	      			display:block;
-	      			position:absolute;
-        			}
-			
+				{{ content }}
+				
 			</div><!-- /.container -->
 			<footer>
 	    			<ul>
