@@ -13,7 +13,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    color: #34B5EA;
+    color: red;
     text-decoration: none;
 }
 a:hover {
